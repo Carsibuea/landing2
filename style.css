@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins";
+}
+
+.hero {
+  min-height: 80vh;
+  /* display: flex; */
+  align-items: center;
+  background-image: url("./img/IMG-20230808-WA0002-01.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  place-content: center;
+  /* min-block-size: 80vh; */
+  position: relative;
+}
+
+/* 
+.hero::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+} */
+.content h1 {
+  font-size: 4vmax;
+  color: rgb(255, 255, 255);
+  line-height: 2em;
+  width: 100%;
+  height: 100%;
+}
+@media (max-widt: 768px) {
+  .hero {
+    height: 50vh;
+  }
+  .content h1 {
+    font-size: calc(1.525rem + 3vw);
+  }
+}
