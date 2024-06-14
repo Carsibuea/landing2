@@ -94,24 +94,27 @@ display: flex; */
 .pernah_kotak img {
   width: 100%;
   height: 400px;
-
+  /* display: flex; */
   /* background: #000; */
-}
-/* .pernah_img {
+  /* } */
+  /* .pernah_img {
   /* background-color: aqua; */
 
-/* display: flex; */
-/* align-self: self-end; */
-/* }  */
+  /* display: flex; */
+  /* align-self: self-end; */
+}
 .pernah_kotak {
   width: 100%;
   height: 400px;
+  /* background-size: cover; */
   /* background-color: burlywood; */
   border-radius: 50px;
   background-color: burlywood;
+  background-position: center;
   /* display: flex; */
+
   overflow: hidden;
-  box-shadow: 30px 30px 15px rgb(207, 203, 203);
+  box-shadow: 25px 25px 15px rgb(207, 203, 203);
 
   /* background-size: cover; */
 }
